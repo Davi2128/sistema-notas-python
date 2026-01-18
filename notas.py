@@ -13,4 +13,17 @@ def calcular_media(notas):
     if len(notas) == 0:
         return 0
     return sum(notas) / len(notas)
+
+def mostrar_resultados(notas):
+    if len(notas) == 0:
+        print("Nenhuma nota cadastrada.")
+        return
     
+    media = calcular_media(notas)
+    print(f"Média: {media.2f}")
+
+    if media >= 6:
+        print("Aluno aprovado.")
+    else:
+        print("Aluno reprovado.")
+
