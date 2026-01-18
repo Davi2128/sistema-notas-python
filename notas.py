@@ -8,3 +8,9 @@ def adicionar_nota(notas):
             print("Nota inválida.")
     except ValueError:
         print("Digite um número válido.")
+
+def calcular_media(notas):
+    if len(notas) == 0:
+        return 0
+    return sum(notas) / len(notas)
+    
