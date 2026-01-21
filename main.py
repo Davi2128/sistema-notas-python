@@ -1,4 +1,4 @@
-from nota import adicionar_nota, mostrar_resultado
+from notas import adicionar_nota, mostrar_resultado
 
 def menu():
     print("\n=== Sistemas de Notas ===")
@@ -27,4 +27,4 @@ def main():
             print("Opção inválida. Tente novamente")
 
 if __name__ == "__main__":
-            main()
+    main()
